@@ -3167,8 +3167,6 @@ a {
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 225 / 259;
-  object-fit: cover;
 }
 
 /* Flow: 769px+（タブレット・PC） */
@@ -3230,6 +3228,7 @@ a {
   .flow-step__image-wrap {
     flex: 0 0 45%;
     max-width: 22rem;
+    margin: 0;
   }
 
   .flow-step__title {
